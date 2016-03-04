@@ -1,0 +1,5 @@
+"D:\WorkSpace\Osciloscope\Osciloscope\r_bsp\board\rdkrx63n\lowlvl.src"
+-cpu=rx600
+-debug
+-output="D:\WorkSpace\Osciloscope\Osciloscope\Debug\lowlvl.obj"
+-nologo

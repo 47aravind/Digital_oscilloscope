@@ -1,0 +1,98 @@
+Optimizing Linkage Editor (V.10.02.00.000)        04-Dec-2015 15:47:59
+
+*** Options ***
+
+-subcommand=D:\WorkSpace\Osciloscope\Osciloscope\Debug\Osciloscope.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="D:\WorkSpace\Osciloscope\Osciloscope\Debug\Osciloscope.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\bitmap_font.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\cmt_periodic_multi.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\customADC.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\customUART.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\dbsct.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\flash_led.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\flash_options.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\font_8x8.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\glyph.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\hwsetup.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\lcd.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\lowlvl.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\lowsrc.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\queue.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\r_glyph.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\r_glyph_register.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\r_rspi_rx600.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\r_switches.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\resetprg.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\S12ADC.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\sbrk.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\st7579_lcd.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\timer_adc.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\tutorial_main.obj"
+-input="D:\WorkSpace\Osciloscope\Osciloscope\Debug\vecttbl.obj"
+-library="D:\WorkSpace\Osciloscope\Osciloscope\Debug\Osciloscope.lib"
+-output="D:\WorkSpace\Osciloscope\Osciloscope\Debug\Osciloscope.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  00001481        82   1
+R_1
+                                  00001482  0000184a       3c9   1
+B_2
+                                  0000184c  0000184c         0   2
+R_2
+                                  0000184c  0000184d         2   2
+B
+                                  00001850  00001e43       5f4   4
+R
+                                  00001e44  000028db       a98   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80f17       f18   1
+C_2
+                                  fff80f18  fff81119       202   2
+C
+                                  fff8111c  fff811d3        b8   4
+C$DSEC
+                                  fff811d4  fff811f7        24   4
+C$BSEC
+                                  fff811f8  fff8120f        18   4
+C$VECT
+                                  fff81210  fff8160f       400   4
+L
+                                  fff81610  fff816f8        e9   4
+D
+                                  fff816fc  fff82193       a98   4
+D_1
+                                  fff82194  fff8255c       3c9   1
+D_2
+                                  fff8255e  fff8255f         2   2
+P
+                                  fff82560  fff8685a      42fb   1
+W_1
+                                  fff8685b  fff8685b         0   1
+W_2
+                                  fff8685c  fff8692d        d2   2
+W
+                                  fff86930  fff86930         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4
